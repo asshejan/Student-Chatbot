@@ -22,7 +22,7 @@ This application is deployed on Render.
 ![Local Test](screenshots/localtest.png)
 
 ### Deployed API Test (Render)
-![Render Test](screenshots/rendertest.png)
+![Render Test](screenshots/ndertest.png)
 
 ## API Usage
 
