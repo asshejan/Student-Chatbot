@@ -14,7 +14,15 @@ This is a FastAPI-based chatbot that acts as an educational tutor for students f
 
 This application is deployed on Render.
 
-**Deployment Link**: [To be added after deployment]
+**Deployment Link**: [https://student-chatbot-ql2u.onrender.com/](https://student-chatbot-ql2u.onrender.com/)
+
+## API Previews
+
+### Local API Test (Swagger UI)
+![Local Test](screenshots/localtest.png)
+
+### Deployed API Test (Render)
+![Render Test](screenshots/rendertest.png)
 
 ## API Usage
 
@@ -47,11 +55,10 @@ The API has a single endpoint for interacting with the chatbot.
 ### Example `curl` Request
 
 ```bash
-curl -X POST "YOUR_DEPLOYMENT_URL/chat" \
+curl -X POST "https://student-chatbot-ql2u.onrender.com/chat" \
 -H "Content-Type: application/json" \
 -d '{"session_id": "test-session-123", "message": "What is photosynthesis?"}'
 ```
-Replace `YOUR_DEPLOYMENT_URL` with the actual deployment link from Render.
 
 ## Environment Variables
 
