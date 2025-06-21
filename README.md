@@ -1,4 +1,4 @@
-# Student Tutor Chatbot
+# Student Chatbot
 
 This is a FastAPI-based chatbot that acts as an educational tutor for students from Class 1 to Class 12. It uses free OpenRouter LLMs to provide helpful and accurate responses.
 
